@@ -3,7 +3,7 @@
 # Sets up the machine with essential utilities and bootstraps the dotfiles.
 
 #
-# Clone/pull the r1cebank/dotfiles
+# Clone/pull the SaadBenn/dotfiles
 PLATFORM=$(uname | tr "[:upper:]" "[:lower:]")
 if [[ -d $HOME/.dotfiles ]]; then
     ( cd $HOME/.dotfiles; git pull; )
@@ -21,7 +21,7 @@ else
             sudo pacman -S --noconfirm git
         fi
     fi
-    git clone https://github.com/r1cebank/dotfiles ~/.dotfiles
+    git clone https://github.com/saadbenn/dotfiles ~/.dotfiles
 fi
 
 $HOME/.dotfiles/installer;
