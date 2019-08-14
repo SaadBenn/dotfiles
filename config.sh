@@ -25,13 +25,13 @@
 DOTFILES_ROOT=$(cd "$(dirname "$0")"; pwd)
 
 function welcome() {
-    echo -e "Welcome to r1cebank's dotfile installer"
+    echo -e "Welcome to Saad's dotfile installer"
 }
 
 function installation_complete() {
     echo -e "Installation complete, enjoy!"
 
-    # If you want the install script to terminate automatically:
+    # Terminate automatically after installation:
     exit 0
 }
 
