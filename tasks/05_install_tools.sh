@@ -29,18 +29,18 @@ function install_tools_run() {
         brew install wget
 
         # Install OS X applications
-        brew cask install dropbox
+        #brew cask install dropbox
         brew cask install google-chrome
-        brew cask install caffeine
+        #brew cask install caffeine
         brew cask install iterm2
-        brew cask install vlc
+        #brew cask install vlc
         brew cask install go2shell
         brew cask install diskmaker-x
-        brew cask install appcleaner
+        #brew cask install appcleaner
         brew cask install visual-studio-code
-        brew cask install steam
-        brew cask install mplayerx
-        brew cask install sketch
+        #brew cask install steam
+        #brew cask install mplayerx
+        #brew cask install sketch
         brew cask install macdown
         brew cask install kaleidoscope
 
